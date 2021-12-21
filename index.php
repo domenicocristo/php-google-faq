@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -30,7 +31,34 @@
 </head>
 <body>
     <header>
-
+        <section>
+            <div>
+                <img src="img/google-logo.png" alt="logo">
+                <h1>Privacy e termini</h1>
+            </div>
+            <div>
+                <div id="account">D</div>
+                <i class="fas fa-th"></i>
+            </div>
+        </section>
+        <nav>
+            <ul>
+                <li>
+                    <h4>Introduzione</h4>
+                <li>
+                    <h4>Norme sulla privacy</h4>
+                </li>
+                <li>
+                    <h4>Termini di servizo</h4>
+                </li>
+                <li>
+                    <h4>Tecnologie</h4>
+                </li>
+                <li>
+                    <h4>Domande frequenti</h4>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section id="domande">

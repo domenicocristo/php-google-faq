@@ -5,11 +5,77 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+header section {
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    width: 90px;
+    float: left;
+    margin: 20px 10px 20px 20px;
+    cursor: pointer;
+}
+
+header h1 {
+    color: #5f6367;
+    float: left;
+    padding-top: 28px;
+}
+
+header i {
+    float: right;
+    margin: 30px 0;
+    font-size: 20px;
+    color: #5f6367;
+}
+
+#account {
+    float: right;
+    border-radius: 50%;
+    color: #fff;
+    background-color: orange;
+    padding: 10px 13px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 20px;
+    color: #5f6367;
+    cursor: pointer;
+}
+
+nav li:hover {
+    color: #3367d6;
+}
+
+nav li:last-child {
+    color: #3367d6;
+    border-bottom: 3px solid #3367d6;
+    padding-bottom: 10px;
+}
+
+#domande {
+    border-top: 1px solid #5f6367;
+}
+
 .domanda {
     width: 800px;
     margin: 50px auto;
 }
 
+.domanda h1 {
+    color: #3367d6;
+}
+
 .domanda p {
+    color: #212121;
     margin-top: 20px;
 }
